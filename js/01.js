@@ -1,6 +1,6 @@
-// Variables - var let const
+// Variables - let (variable var ya es antiguo)
 
-let cliente = "Juan" // las variables let se pueden reaccionar el tipo de dato ya sea string, int, etc
+let cliente = "Juan" // las variables let se pueden reasignar el tipo de dato ya sea string, int, etc
 let precioDescuento = 220 //cameCase usar segundo palabra iniciando con mayuscula
 
 //Re asiganar
