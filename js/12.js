@@ -1,9 +1,10 @@
 /* Funciones - Function Declaration */
 
-sumar() // Puedes llamar y ejecutar la funcion desde cualquier parte del código
-
-function sumar() {
-    console.log(2 + 2)
+function sumar(numero, numero2 = 0) { // lo que está dentro del parentesis se llama parámetros
+    console.log(numero + numero2)
 }
 
-sumar() // Puedes llamar y ejecutar la funcion desde cualquier parte del código
+sumar(10, 20) // los valores dentro del parentesis son los argumentos
+sumar(2, 3)
+sumar(100)
+sumar()
